@@ -6,7 +6,7 @@ targets any metadata that would prevent a ZIP file from being used as part of
 a repeatable build process.
 
 Instead of manipulating the timestamp and owner information for each file
-before packaging into a ZIP; package files normally and then run stripzip on
+before packaging into a ZIP, package files normally and then run stripzip on
 the ZIP file.
 
 Features
