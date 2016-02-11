@@ -16,6 +16,15 @@ Features
 - Zero extended metadata for ZIP extended headers
 - Complain about extended metadata headers it doesn't understand
 
+Motivation
+----------
+
+Repeatable (aka reproducible, deterministic) builds are key to managing
+binaries that may be built on a multitude of systems. The invariant property of
+this type of build is that each artifact of the build process will have an
+identical hash provided they were built from the same source files. This allows
+fast identification of artifacts that have changed.
+
 Installation
 ------------
 
