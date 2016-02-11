@@ -30,8 +30,8 @@ To build:
 Usage
 -----
 
-   $ zip archive.zip -r folder_of_stuff
-   $ stripzip archive.zip
+    $ zip archive.zip -r folder_of_stuff
+    $ stripzip archive.zip
 
 Notes:
  - Currently StripZIP will modify the archive in place
