@@ -24,7 +24,21 @@ dependencies. It does not currently have an installer; when running make the
 emitted binary will be in the source folder.
 
 To build:
+
     $ make
+
+Usage
+-----
+
+   $ zip archive.zip -r folder_of_stuff
+   $ stripzip archive.zip
+
+Notes:
+ - Currently StripZIP will modify the archive in place
+ - ZIP on Linux will add extra metadata which although StripZIP can clean so
+   that builds are repeatable on the same machine, it's better not to add it at
+   all. In this case, it's better to run ZIP with the `-X` or `--no-extra`
+   flags.
 
 Contribute
 ----------
